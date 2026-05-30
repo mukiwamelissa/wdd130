@@ -46,7 +46,7 @@ aside {
 aside h2 {
     position: absolute;
     top: auto;
-    left: auto;
+    left: 3cm;
 
 }
 
@@ -85,7 +85,7 @@ footer {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid rgb(0, 0, 0.2);
-    background-color: aquamarine;
+    background-color: rgb(238, 243, 165);
     color: brown;
 }
 
