@@ -31,7 +31,7 @@ footer {
 
 header {
 
-    background-color: #b8c4f5;
+    background-color: var(--accent1-color);
     padding: 20px 50px;
     border: 1px solid #999;
     display: grid;
@@ -114,10 +114,11 @@ article {
 .hero article img {
     width: 120px;
     height: auto;
+    float: right;
     border: 1px solid rgb(0, 0, 0.2);
     padding: 1rem;
     box-shadow: 0 0 30px #333;
-    background-color: #e6e6e6;
+    background-color: var(--accent1-color);
 }
 
 h2 {
@@ -160,7 +161,7 @@ h2 {
 }
 
 footer {
-    background-color: #b8c4f5;
+    background-color: var(--accent1-color);
     padding: 10px;
     display: flex;
     justify-content: space-between;
