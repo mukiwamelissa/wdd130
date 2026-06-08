@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Activity</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+
+</head>
+
+<main>
+    <form>
+        <div class="form-item column2">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+
+        <div class="form-item column2">
+            <label for="useremail">Email:</label>
+            <input type="email" id="useremail" name="useremail">
+        </div>
+
+        <label for="browser">What is your favorite browser?</label>
+        <select name="browser" id="browser">
+            <option value="1">Chrome</option>
+            <option value="2">Safari</option>
+            <option value="3">Edge</option>
+        </select>
+
+        <label for="pet">Do have a household pet?</label>
+        <checkbox name="pet" id="pet">
+        </checkbox>
+        <input type="checkbox" id="pet" name="pet">
+
+        <label for="feedback">List the places you have lived.</label>
+        <textarea name="feedback" id="feedback" rows="4"
+          placeholder="Cape Town, Johannesburg, Riverside, Sandton">
+        </textarea>
+
+        <button type="submit">Submit Poll</button>
+    </form>
+</main>
+<Footer></Footer>
