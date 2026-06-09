@@ -35,16 +35,20 @@ header {
     padding: 20px 50px;
     border: 1px solid #999;
     display: grid;
-    grid-template-columns: 300px 1fr 1fr;
+    grid-template-columns: 500px 1fr 1fr;
     align-items: center;
+
 }
 
-nav {
+nav,
+ul {
     display: flex;
+    justify-content: left;
     list-style: none;
 }
 
-nav a {
+nav a,
+ul {
     text-decoration: none;
     color: #333;
     background-color: white;
@@ -173,6 +177,7 @@ footer p {
     margin: 0;
     flex-grow: 1;
     text-align: center;
+    color: #000;
 }
 
 .socialmedia {
@@ -183,4 +188,91 @@ footer p {
 .socialmedia img {
     width: 20px;
     height: 40px;
+}
+
+.company-info {
+    text-align: center;
+    padding: 30px;
+}
+
+.company-info h1 {
+    color: #4569a7;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+}
+
+.map img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label,
+.contact-form p {
+    margin-top: 12px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 12px;
+    background: #4569a7;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Employees */
+
+.employees {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.employees h2 {
+    color: #4569a7;
+    margin-bottom: 25px;
+}
+
+.employee-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.employee-grid img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+.map {
+    width: 600;
+    height: 450;
+    border: 0;
 }
