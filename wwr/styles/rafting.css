@@ -200,8 +200,6 @@ footer p {
     margin-bottom: 10px;
 }
 
-/* Contact Section */
-
 .contact-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -240,8 +238,6 @@ footer p {
     border: none;
     cursor: pointer;
 }
-
-/* Employees */
 
 .employees {
     border: 1px solid #ccc;
