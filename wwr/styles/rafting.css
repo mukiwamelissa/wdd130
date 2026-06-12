@@ -1,9 +1,9 @@
 :root {
     --primary-color: #055a05;
-    /* forest green */
 
     --accent1-color: #264653;
-    /* dark slate blue */
+
+    --accent2-color: #4569a7;
 
     --heading-font: "Times New Roman", "Georgia", serif;
 
@@ -196,7 +196,7 @@ footer p {
 }
 
 .company-info h1 {
-    color: #4569a7;
+    color: var(--accent2-color);
     margin-bottom: 10px;
 }
 
@@ -233,8 +233,8 @@ footer p {
 .contact-form button {
     margin-top: 20px;
     padding: 12px;
-    background: #4569a7;
-    color: white;
+    background: var(--accent1-color);
+    color: #fff;
     border: none;
     cursor: pointer;
 }
@@ -247,7 +247,7 @@ footer p {
 }
 
 .employees h2 {
-    color: #4569a7;
+    color: var(--accent2-color);
     margin-bottom: 25px;
 }
 
